@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    padding: 15px 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 2px solid lightgray;
+}
+
+nav {
+    width: 93%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paraf-1 {
+    color: #180330;
+    gap: 80px;
+    display: flex;
+}
+
+.btn-all-1 {
+    color: #180330;
+    display: flex;
+    gap: 5px;
+}
+
+.btn-1 {
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-2 {
+    width: 100px;
+    border-radius: 7px;
+    border: 1px solid #180330;
+    transition: all 1s ease;
+}
+
+.btn-2:hover {
+    background-color: #180330;
+    color: white;
+    opacity: 0.70;
+    transition: all 1s ease;
+
+}
