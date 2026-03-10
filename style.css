@@ -264,8 +264,68 @@ input {
     justify-self: center;
 }
 
-.sec-7 {
+.sec7 {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+}
+
+.fot-1,
+img {
+    margin-bottom: 30px;
+}
+
+.fot-1,
+p {
+    margin-bottom: 10px;
+    color: #180330;
+}
+
+.sec8 {
+    justify-content: space-around;
+    display: flex;
+}
+
+.sec9 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+    color: #180330;
+}
+
+.jh {
+    display: flex;
+    gap: 20px;
+}
+
+.io {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gre {
+    width: 10px;
+    height: 10px;
+    background-color: #00BB99;
+    border-radius: 100%;
+    margin-top: -9px;
+    animation: swich 2s infinite
+}
+
+@keyframes swich {
+    0% {
+        background-color: #00BB99;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: #00BB99;
+    }
 }
